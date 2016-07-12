@@ -10,18 +10,6 @@ app.config(['$routeProvider',function($routeProvider) {
 		templateUrl: "views/infoband.html",
 		controller: "groupBand"
 	})
-	.when("/products/category/:category", {
-		templateUrl: "views/categoryFilter.html",
-		controller: "categoryManager"
-	})
-	.when("/contact",{
-		templateUrl: "views/contact.html",
-		controller: "contactManager"
-	})
-	.when("/products/id/:id",{
-		templateUrl: "views/product.html",
-		controller: "productManager"
-	})
 	.otherwise({
 		redirectTo: "/"
 	})
@@ -41,12 +29,6 @@ app.controller("groupBand",["$scope", "$http", "$routeParams", function($scope, 
 		$scope.bandsjson = data;
 	});
 
-	app.directive('form', function() {
-    return {
-     restrict : 'E',
-     templateUrl : "/"
-    }
-});
 }]);
 
 app.directive('header', function() {
@@ -63,9 +45,9 @@ app.directive('footer', function() {
     }
 });
 
-app.directive('form', function() {
+/*app.directive('form', function() {
     return {
      restrict : 'E',
      templateUrl : "views/filter.html"
     }
-});
+});*/

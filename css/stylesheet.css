@@ -47,3 +47,7 @@ main .slider .indicators .indicator-item.active{
 	margin: auto;
 }
 
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-floating) {
+	color: #357b3b;
+}
+
