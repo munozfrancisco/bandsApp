@@ -3,21 +3,17 @@ body {
     min-height: 100vh;
     flex-direction: column;
 }
-
-main{
-	flex: 1 0 auto;
+.nav-wrapper {
+	background-color: black;
+	text-align: center;
 }
 
-header nav,footer.page-footer{
-	background: linear-gradient(to right,  #ffdd99, #ffefcc); /* Standard syntax */
+.brand-logo {
+	left: 17%;
 }
-
-.nav-wrapper a, .links-footer li a{
-	color:#000;
-}
-
 footer.page-footer{
 	padding:0;
+	background-color: black;
 }
 
 footer.page-footer .container .row{
@@ -36,25 +32,8 @@ main .slider .indicators .indicator-item.active{
 	text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 }
 
-#dropdown1 li a{
-	color:#ff7611;
-}
-.container-links{
-	margin-top:1em;
-}
-
-.nav-wrapper a img{
-	width: 100%;
-    height: 1.5em;
-    vertical-align: middle;
-    border-radius: 0.2em;
-}
-
-.carousel-inner > .item > img,
-.carousel-inner > .item > a > img {
-	width: 100%;
-	height:300px;
-	margin: auto;
+.card-title {
+	text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 }
 
 .cardElement{
@@ -63,30 +42,8 @@ main .slider .indicators .indicator-item.active{
 	margin:1em;
 	vertical-align:top;
 }
-
-.contact-container{
-	margin-top:3em;
-}
-#fachada {
-	border-radius: 1em;
-	margin-left:2em;
-}
-.links-footer li{
-	display:inline-block;
-	margin-right:3em;
+.cardOne{
+	width: 76%;
+	margin: auto;
 }
 
-.error-input{
-	font-weight:bold;
-	color:red;
-}
-
-.product-element{
-	margin-top:3em;
-	text-align:center;
-}
-
-.imagenPortada {
-	width: 200px;
-	border-radius: 90px;
-}

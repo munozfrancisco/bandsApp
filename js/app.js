@@ -6,7 +6,7 @@ app.config(['$routeProvider',function($routeProvider) {
 		templateUrl:"views/cardTemplate.html",
 		controller: "bands"
 	})
-	.when("/id/:id",{
+	.when("/info/:name",{
 		templateUrl: "views/infoband.html",
 		controller: "groupBand"
 	})
@@ -35,11 +35,18 @@ app.controller('bands',['$scope','$http', function($scope,$http){
 }]);
 
 app.controller("groupBand",["$scope", "$http", "$routeParams", function($scope, $http, $routeParams){
-	$scope.id = $routeParams.id;
-	
+	$scope.name = $routeParams.name;
+
 	$http.get("json/Bands_Json.json").success (function (data){
 		$scope.bandsjson = data;
 	});
+
+	app.directive('form', function() {
+    return {
+     restrict : 'E',
+     templateUrl : "/"
+    }
+});
 }]);
 
 app.directive('header', function() {
