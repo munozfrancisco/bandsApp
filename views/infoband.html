@@ -1,0 +1,16 @@
+<section class="container" ng-controller="bands" >
+        
+          <div class="card cardElement" ng-repeat="band in bandsjson | filter: {id: id}:true">
+            <div class="card-image">
+              <img src="{{band.image}}">
+              <span class="card-title">{{band.name | uppercase}}</span>
+            </div>
+            <div class="card-content">
+              <p><strong>Decade:</strong> {{band.decade}}</p>
+		      <p><strong>Popular Sons:</strong> {{band.songs[0]}}, {{band.songs[1]}}, {{band.songs[2]}}. </p>
+            </div>
+          </div>
+        
+</section> 
+
+
