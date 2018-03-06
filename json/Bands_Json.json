@@ -53,5 +53,12 @@
     "image":"http://madafackismounderground.com/wp-content/uploads/2016/02/iron-maiden-bruce.jpg",
     "decade":1980,
     "songs":["Fear of the Dark","The Trooper"]
+  },
+  {
+    "id":"9",
+    "name": "Extremoduro",
+    "image":"https://i0.wp.com/www.informavalencia.com/wp-content/uploads/2017/08/extremoduro2.jpg",
+    "decade":1980,
+    "songs":["So Payaso","Tu Corazón"]
   }
 ]
