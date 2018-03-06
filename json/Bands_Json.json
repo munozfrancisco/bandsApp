@@ -43,14 +43,14 @@
   {
     "id":"7",
     "name": "Green Day",
-    "image":"http://qsrock.com/wp-content/uploads/2016/05/green-day.jpg",
+    "image":"https://img.culturacolectiva.com/content/2015/04/greenday2.jpg",
     "decade":1990,
     "songs":["BasketCase","BurnOut"]
   },
   {
     "id":"8",
     "name": "Iron Maiden",
-    "image":"http://img.thesun.co.uk/aidemitlum/archive/02738/ironmaiden_land8_2738052a.jpg",
+    "image":"http://madafackismounderground.com/wp-content/uploads/2016/02/iron-maiden-bruce.jpg",
     "decade":1980,
     "songs":["Fear of the Dark","The Trooper"]
   }
