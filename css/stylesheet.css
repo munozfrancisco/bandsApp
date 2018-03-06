@@ -44,7 +44,7 @@ main .slider .indicators .indicator-item.active{
 }
 .cardOne{
 	width: 76%;
-	margin: auto;
+	margin: 25px auto;
 }
 
 .card .card-action a:not(.btn):not(.btn-large):not(.btn-floating) {
