@@ -3,8 +3,10 @@ body {
     min-height: 100vh;
     flex-direction: column;
 }
-
 .datesInput{
+	padding: 7px;
+    background-color: #d2d5db;
+    border-radius: 30px;
 	font-size: 1.4rem;
 	cursor: pointer;
 	border: solid;
@@ -14,7 +16,6 @@ body {
 	background-color: black;
 	text-align: center;
 }
-
 .brand-logo {
 	left: 17%;
 }
