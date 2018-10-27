@@ -3,8 +3,7 @@
 <section class="container" ng-controller="bands" >
 <form>
   <div class="row">
-    <div class="col s4 offset-s2">
-      <!-- <input placeholder="Search by decade" type="text" ng-model="decadeFilter"> -->
+<!-- <div class="col s4 offset-s2">
       <form>
         <label class="datesInput">
           <input type="radio" ng-model="decadeFilter" value="60">
@@ -23,10 +22,9 @@
           1990 
         </label>
        </form>
-
-    </div>
-    <div class="col s4">
-      <input placeholder="Search by name" type="text" ng-model="nameFilter">
+    </div> -->
+    <div class="col s12 offset-m2 m9">
+      <input placeholder="Sort by name instantaneous like your contacts in your mobile phone" type="text" ng-model="nameFilter">
     </div>
   </div>
 </form>
@@ -39,7 +37,6 @@
             </div>
             <div class="card-content">
               <p><strong>Decade:</strong> {{band.decade}}</p>
-		      <p><strong>Popular Sons:</strong> {{band.songs[0]}}, {{band.songs[1]}}, {{band.songs[2]}}. </p>
             </div>
             <div class="card-action">
               <a href="#info/{{band.name}}">Some one more</a>

@@ -46,7 +46,8 @@ main .slider .indicators .indicator-item.active{
 
 .cardElement{
 	display:inline-block;
-	width:30%;
+	width:27%;
+	min-width: 200px;
 	margin:1em;
 	vertical-align:top;
 }
